@@ -10,7 +10,7 @@ Python based implementation of the paper "Controlling Shapes of Ensembles of Rob
 
 # Approach 
 
-          ![Example Abstract Space enclosing a team of robot [1]](https://user-images.githubusercontent.com/41729963/147318251-494b3d40-9d10-4e89-bc29-8ff1e2cef7fe.png)
+   ![Example Abstract Space enclosing a team of robot [1]](https://user-images.githubusercontent.com/41729963/147318251-494b3d40-9d10-4e89-bc29-8ff1e2cef7fe.png)
 
 Abstract space is characterized by the overall enclosing boundary of formation of the robot team. Authors in referenced paper argued that a concentration ellipsoid is most suitable to define boundary of team formation. Hence state variables of proposed abstract spacebecome : {u_x, u_y, θ, s1, s2}, where u_x, u_y & θ define position and orientation of ellipsoid and s1, s2 define the size of ellipsoid.
 
